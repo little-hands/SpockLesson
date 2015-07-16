@@ -27,6 +27,8 @@ http://www.eclipse.org/downloads/packages/release/Luna/SR2
 git cloneを実行するか、当画面右下の「Download ZIP」からダウンロードしてください。
 
 
+### 講義
+(前方のパワーポイント資料をご覧ください)
 
 ### Groovy-Eclipseプラグインのインストール
 公式ページ  
@@ -37,8 +39,6 @@ http://dist.springsource.org/release/GRECLIPSE/e4.4
 を入力し、「Groovy-Eclipse」を選択してインストール  
 (Eclipse 4.4Luna用のバージョン)
 
-### 講義
-(前方のパワーポイント資料をご覧ください)
 
 ### 最初のSpockテストコードサンプル
 
