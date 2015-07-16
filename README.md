@@ -22,6 +22,6 @@ http://www.eclipse.org/downloads/packages/release/Luna/SR2
 
 ### サンプルファイルのインストール
 このリポジトリのサンプルファイルをローカル環境にダウンロードしてください。  
-git cloneを実行するか、当画面右下の「Download ZIP」からダウンロードしてください。
+git cloneを実行するか、当画面右カラムの「Download ZIP」からダウンロードしてください。
 
 
