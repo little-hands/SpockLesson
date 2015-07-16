@@ -20,8 +20,44 @@ http://www.eclipse.org/downloads/packages/release/Luna/SR2
 環境差異による問題を極力抑えたいため、**必ず上記リンクのEclipseを新規インストール**してください。  
 異なる環境の場合、バージョン違いやプラグイン同士の競合などが発生した際には勉強会の時間内に解決できない可能性がありますのでご了承ください。
 
+
+## 当日ハンズオン向け
 ### サンプルファイルのインストール
 このリポジトリのサンプルファイルをローカル環境にダウンロードしてください。  
 git cloneを実行するか、当画面右下の「Download ZIP」からダウンロードしてください。
+
+
+
+### Groovy-Eclipseプラグインのインストール
+公式ページ  
+http://docs.groovy-lang.org/latest/html/documentation/tools-groovyeclipse.html
+
+「Help > Install New Software > Work with」に  
+http://dist.springsource.org/release/GRECLIPSE/e4.4  
+を入力し、「Groovy-Eclipse」を選択してインストール  
+(Eclipse 4.4Luna用のバージョン)
+
+
+### 最初のSpockテストコードサンプル
+```spock:HelloSpock.groovy
+package test.groovy.lesson
+
+import spock.lang.Specification
+
+class HelloSpock extends Specification {
+	def "First Spock Case"() {
+		setup: 
+		  List list = new ArrayList()
+		  String str = "hello spock"
+	
+		when:
+		  list.add(str)
+	
+		then: 
+		  list.size() == 1
+		  list.get(0) == str
+	  }
+}
+```
 
 
