@@ -39,7 +39,8 @@ http://dist.springsource.org/release/GRECLIPSE/e4.4
 
 
 ### 最初のSpockテストコードサンプル
-```spock:HelloSpock.groovy
+
+```groovy:HelloSpock.groovy
 package test.groovy.lesson
 
 import spock.lang.Specification
